@@ -32,6 +32,7 @@ function App() {
       <ul style={{listStyle: 'none', paddingLeft: 0}}>
         {items.map(item => (
           // 🐨✅ add a key prop to the <li> below. Set it to item.id
+          // Finish Coures
           <li key={item.id}>
             <button onClick={() => removeItem(item)}>remove</button>{' '}
             <label htmlFor={`${item.id}-input`}>{item.value}</label>{' '}
